@@ -1,0 +1,106 @@
+
+@font-face {
+	font-family: "Butler";
+    src: url("~/Library/Fonts/Butler_Regular.otf");
+}
+
+section {
+	margin: 250px 0 0 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+h1 {
+	font-family: "Butler";
+	font-size: 3em;
+	font-weight: 400;
+	color: black;
+}
+
+h2 {
+	font-family: "Butler";
+	font-size: 2.25em;
+	font-weight: 400;
+	color: black;
+}
+
+body {
+	font-family: 'Poppins', san-serif;
+	font-size: 1em;
+	color: #5D626B;
+	line-height: 28px;
+}
+
+button {
+	margin: 0 5px;
+}
+
+.btn-primary {
+	background-color: #FD7705;
+	border-color: #FD7705;
+}
+
+.btn-secondary {
+	
+}
+
+.white-text {
+	color: white;
+}
+
+.section-title {
+	font-family: "Butler";
+	font-size: 6.25em;
+	font-weight: 400;
+}
+
+.navbar {
+	padding: 24px 0;
+}
+
+.center {
+	text-align: center;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#landing-background {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    /*background-color: maroon;*/
+    height: 100vh;
+    background-image: url("./assets/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    background-size: cover;
+}
+
+#values .row {
+	height: 375.6px;
+}
+
+#values img {
+	background-color: maroon;
+	padding: 0 0;
+}
+
+#values li div {
+	padding: 0 10%;
+}
+
+
+#faq li {
+	margin: 0 0 60px 0;
+}
+
+#call-to-action {
+	padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: maroon;
+    height: 350px;
+}
