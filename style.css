@@ -82,7 +82,7 @@ input[type="submit"]
     height: 100vh;
     background-image: url("./assets/landing.jpg");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center 20%;
     text-align: center;
     background-size: cover;
 }
