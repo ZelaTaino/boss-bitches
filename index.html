@@ -13,8 +13,8 @@
   <body>
     <header>
       <!-- Navbar -->
-      <nav class="mx-lg-5 navbar navbar-expand-lg fixed-top">
-          <div class="d-flex flex-grow-1">
+      <nav id= "navbar" class="navbar navbar-expand-lg fixed-top">
+          <div class="mx-lg-5 d-flex flex-grow-1">
               <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
               <a class="navbar-brand butler" href="#">
                   <h1 class="white-text">Clik</h1>
@@ -24,16 +24,6 @@
                       <span class="navbar-toggler-icon"></span>
                   </button>
               </div>
-          </div>
-          <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-              <ul class="navbar-nav ml-auto flex-nowrap">
-                  <li class="nav-item">
-                      <a href="#" class="nav-link white-text">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link white-text">FAQ</a>
-                  </li>
-              </ul>
           </div>
       </nav>
       <!-- Navbar end -->
@@ -47,15 +37,12 @@
           <h2 class="white-text">
             Curated female community for IRL connection.
           </h2>
-          <button type="button" class="btn btn-primary">
-            APPLY TO ATTEND
-          </button>
-          <button type="button" class="btn btn-secondary">
-            REFER A FRIEND
-          </button>
+          <form action="https://clarissamurra.typeform.com/to/Gb7tQd">
+              <input class="btn btn-primary" type="submit" value="APPLY TO ATTEND"/>
+          </form>
         </div>
       </div>
-      <section id="about-us" class="mx-lg-5 row">
+      <section id="about-us" class="mx-lg-5 row container">
         <h1 class="section-title col-sm-6">About Us</h1>
         <div class="col-sm-6">
           We believe in delivering curated community based on the likelihood that you and the group will click. We’re using tech to power the magic of first meeting someone, and feeling like you just get each other. 
@@ -64,38 +51,33 @@
           Meaningful connections should be accessible, and interesting. The options to meet and connect with people are expensive social clubs, awkward swiping apps, or random meetups. We’re here to change that. 
         </div>
       </section>
-      <section id="values" class="mx-lg-5">
-        <ul>
-          <li class="row">
-            <img class="col-sm-5">
-            <div class="col-sm-6">
-              <h1>
-                Tell us about you 
-              </h1>
+      <section id="values" class="mx-lg-5 container">
+        <h1 class="section-title">How It Works</h1>
+        <div class="row">
+          <div class="col-md-4"">
+            <div id="thumb3" class="thumb"></div>
+            <div class="values-cell-text">
+              <h2>1. Tell us about you.</h2>
               We want to get to know you. Fill out our onboarding questionnaire in under a minute.
             </div>
-          </li>
-          <li class="row">
-            <img class="col-sm-5">
-            <div class="col-sm-6">
-              <h1>
-                We'll find your Clik.
-              </h1>
+          </div>
+          <div class="col-md-4">
+            <div id="thumb3" class="thumb"></div>
+            <div class="values-cell-text">
+              <h2>2. We'll find your Clik.</h2>
               It's about the Clik. We'll use our data to find the top ten women you Clik with based on your preferences.
             </div>
-          </li>
-          <li class="row">
-            <img class="col-sm-5">
-            <div class="col-sm-6">
-              <h1>
-                A Curated Experience.
-              </h1>
+          </div>
+          <div class="col-md-4">
+            <div id="thumb3" class="thumb"></div>
+            <div class="values-cell-text">
+              <h2>3. A curated experience.</h2>
               Check your inbox for plans curated to your taste level, starting with a Clik experience to break the ice.
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
-      <section id="faq" class="mx-lg-5 row">
+      <section id="faq" class="mx-lg-5 row container">
         <h1 class="section-title col-sm-6">FAQ</h1>
         <ul class="col-sm-6">
           <li>
@@ -115,12 +97,9 @@
       <section id="call-to-action">
         <div class="mx-lg-5 center">
           <h1 class="white-text">Tag line here</h1>
-          <button type="button" class="btn btn-primary">
-            APPLY TO ATTEND
-          </button>
-          <button type="button" class="btn btn-secondary">
-            REFER A FRIEND
-          </button>
+          <form action="https://clarissamurra.typeform.com/to/Gb7tQd">
+              <input class="btn btn-primary" type="submit" value="APPLY TO ATTEND"/>
+          </form>
         </div>
       </section>
     </main>
@@ -130,5 +109,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </body>
 </html>
